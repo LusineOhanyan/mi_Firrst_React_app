@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 8vh;
+    align-items: center;
+}
+
+.logo{
+    margin-left:60px;
+    margin-top: 10px;
+}
+
+.login_button{
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    color: #662D91;
+    background-color: white;
+    border-radius: 8px;
+     border: 1px solid;
+    border-color: #662D91;
+    font-size: 16px;
+    margin-right: 40px;
+    font-family: Montsterrat, sans-serif;
+    font-weight: 500;
+}
