@@ -25,4 +25,41 @@
     margin-right: 40px;
     font-family: Montsterrat, sans-serif;
     font-weight: 500;
+    cursor: pointer;
 }
+
+.IconReview{
+   
+    display: flex;
+     /* display: none; */
+     margin-right: 40px;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    gap: 20px;
+}
+
+.Review{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: #662D91;
+}
+
+.rate{
+    color: white;
+    font-weight: 600;
+    font-family: 'Montsterrat', sans-serif;
+    font-size: 16px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+

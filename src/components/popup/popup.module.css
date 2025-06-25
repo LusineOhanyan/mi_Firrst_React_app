@@ -17,15 +17,11 @@
   /* padding: 20px; */
   margin-top: 200px !important;
   border-radius: 10px;
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
   /* max-width: 90%; */
 }
 
-.close_btn {
-  float: right;
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
+.logo{
+  margin-top: 60px;
 }

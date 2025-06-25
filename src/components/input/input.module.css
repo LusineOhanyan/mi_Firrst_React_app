@@ -1,0 +1,25 @@
+.inputGroup {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  font-family: 'Montsterrat', sans-serif;
+  user-select: none; /* Թույլ չի տալիս նշվել */
+}
+
+.input {
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+  width: 400px;
+}
+
