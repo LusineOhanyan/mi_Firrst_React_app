@@ -36,6 +36,7 @@
     flex-direction: row;
     align-items: center;
     width: fit-content;
+    position: relative;
     gap: 20px;
 }
 
@@ -61,5 +62,6 @@
 .icon{
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 

@@ -1,8 +1,10 @@
 import React from "react";
-import  styles from './homepage.module.css';
+import  styles from './herosection.module.css';
 import { FaSearch } from "react-icons/fa";
 
 const HeroSection = () => {
+ 
+ 
   return (
     
     <div
@@ -30,7 +32,7 @@ const HeroSection = () => {
           <button className={styles.searchButton}>
             Search
           </button>
-        </div>
+      </div>
       </div>
     </div>
   );
