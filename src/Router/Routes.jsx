@@ -44,8 +44,7 @@ const AppRoutes = () => {
     
    
     <Routes>
-    
-      <Route path="/hotelReview" element={<HotelReview/>} />
+        <Route path="/hotelReview" element={<HotelReview/>} />
     </Routes>
   );
 };

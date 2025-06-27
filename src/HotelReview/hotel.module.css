@@ -1,7 +1,10 @@
 .background{
-   
-   width: 1365px;
-   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 540px;
+   background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
    background-image:  url(background.png.png);
@@ -11,10 +14,142 @@
 
 .nameHotel{
     display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: 100px;
+    flex-direction: row;
+    height: 150px;
+    width: 1000px;
     background-color: white;
     z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 140px;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.nameHotelImg{
+    width: 148px;
+    height: 138px;
+}
+
+.hotelName{
+  
+    font-family: "Montsterrat", sans-serif;
+}
+
+.firstPart{
+    display: flex;
+    width: 350px;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+   
+}
+
+.section2{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+}
+
+.aboutHotel{
+     background-color: white;
+    z-index: 100;
+    bottom: 0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 65%;
+}
+
+.container{
+    display: flex;
+    z-index: 100;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 300px;
+}
+
+#p{
+    font-size: 14px;
+    font-family: "open-sans";
+}
+
+#h1{
+    font-size: 16px;
+}
+
+.title{
+    font-size: 16px;
+    font-family: "Montsterrat", sans-serif;
+    font-weight: 500;
+}
+
+.locationAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    bottom: 0;
+    width: 1000px;
+    margin-top: 20px;
+
+} 
+
+.location{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+
+.reviewButton{
+    
+    background-color: #6f2da8;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+            
+}
+
+.section2{
+    height:0; 
+    top:100px;
+}
+
+/* 
+.subsection1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.overall{
+    font-size: 48px;
+    font-weight: bold; 
+    color: #6f2da8; 
+    margin-bottom: 0; 
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

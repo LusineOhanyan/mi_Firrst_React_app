@@ -16,7 +16,7 @@ const Popup = ({ visible, onClose, children, footerText, onFooterClick, style })
         {children}
       </div>
     </div>
-  );
+  );  
 };
 
 export default Popup;
