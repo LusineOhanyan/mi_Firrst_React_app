@@ -7,7 +7,7 @@
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   background-image:  url(background.png.png);
+   background-image:  url(./hotel_imgs/background.png);
    position: relative;
 }
 
@@ -43,6 +43,8 @@
 .hotelName{
   
     font-family: "Montsterrat", sans-serif;
+    width: 180px;
+    margin-top: -55px;
 }
 
 .firstPart{
@@ -57,7 +59,7 @@
 .section2{
     display: flex;
     width: fit-content;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .aboutHotel{
@@ -81,7 +83,8 @@
 
 #p{
     font-size: 14px;
-    font-family: "open-sans";
+    font-family: "Montsterrat", sans-serif;
+    font-weight: Mixed;
 }
 
 #h1{
@@ -133,12 +136,6 @@
     top:100px;
 }
 
-/* 
-.subsection1{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 .overall{
     font-size: 48px;
@@ -152,4 +149,80 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+.mailContainer{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.phoneContainer{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.locationContainer{
+     display: flex;
+    flex-direction: row;
+    width: fit-content;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mediaContainer{
+      display: flex;
+    flex-direction: row;
+    width: fit-content;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons{
+    width: 36px;
+    height: 36px;
+}
+
+.conatctInfo{
+    color: rgb(71, 70, 70);
+    font-family: Poppins;
+    font-weight: medium;
+    font-size: 14px;
+}
+
+.reviewContainer{
+     top:100px;
+     width: 600px;
+     margin-right: 350px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.stars{
+    width: 100px;
+    margin-top: 10px;
 }
