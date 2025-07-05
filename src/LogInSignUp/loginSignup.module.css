@@ -14,3 +14,42 @@ h2{
      height: auto;
 }
 
+
+.inputcontainer{
+     width: 80%;
+     max-width: 500px;
+}
+
+
+
+@media (max-width: 768px) {
+  .backImage {
+    background-position: top;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .backImage {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 13px !important;
+    text-align: center;
+  }
+}
+

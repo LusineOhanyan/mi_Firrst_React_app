@@ -10,7 +10,7 @@ const AppRoutes = () => {
    const location = useLocation();
    
   // Header-ը երևա միայն '/' (homepage)-ում
-  const shouldShowHeader = location.pathname === '/';
+  const shouldShowHeader = location.pathname !== '/login';
   const [status, setStatus] = useState('logged out');
   
   

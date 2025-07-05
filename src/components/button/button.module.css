@@ -7,12 +7,9 @@
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
-  width: 400px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
 }
 
-/* 
-@media (max-width: 765px){
-  .btn{
-
-  }
-} */

@@ -9,6 +9,7 @@ import media from "./hotel_imgs/internet.png"
 import photo from "./hotel_imgs/photo.png"
 import stars from "./hotel_imgs/stars.png"
 
+
 const HotelReview = () => {
   const overallRating = 9.7;
   const overallCategories = {
