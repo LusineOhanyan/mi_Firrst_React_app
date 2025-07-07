@@ -110,13 +110,9 @@ const LoginSignup = ({ setStatus }) => {
               onChange={(e) => setPassword(e.target.value)}
             />
             
-            <p
+            <p  className={styles.forgotPass}
               onClick={handleForgotPasswordClick}
-              style={{
-                cursor: 'pointer',
-                textDecoration: 'underline',
-                marginRight: '100px'
-              }}
+              
             >
               Forgot your password?
             </p>

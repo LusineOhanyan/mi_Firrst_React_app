@@ -20,6 +20,17 @@ h2{
      max-width: 500px;
 }
 
+.forgotPass{
+ 
+  cursor: pointer;
+  text-decoration: underline;
+
+               
+              
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -34,8 +45,12 @@ h2{
 
   p {
     font-size: 14px !important;
-    text-align: center;
+    
   }
+
+  .forgotPass{
+    text-align: left;
+}
 }
 
 @media (max-width: 480px) {
@@ -49,7 +64,12 @@ h2{
 
   p {
     font-size: 13px !important;
-    text-align: center;
+    
   }
+
+
+  .forgotPass{
+    text-align: left;
+}
 }
 

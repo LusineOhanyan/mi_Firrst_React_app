@@ -153,7 +153,7 @@
   .search_container {
     flex-direction: column;
     gap: 10px;
-    width: 60%;
+    width: 90%;
     height: 4vh;
     border-radius: 16px !important;
   }
@@ -162,6 +162,7 @@
     width: 100%;
     font-size: 12px;
     padding: 12px;
+    border-radius: 10px;
   }
 
   .searchButton {
@@ -174,7 +175,7 @@
   .search_icon {
     margin-left: 0;
     font-size: 20px;
-    align-self: center;
+    /* align-self: center; */
   }
 
   .full_screen {

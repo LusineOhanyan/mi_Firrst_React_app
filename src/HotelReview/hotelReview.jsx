@@ -102,15 +102,16 @@ const HotelReview = () => {
       <div className={styles.container}>
         {/* Top part with hotel image and name */}
         <div className={styles.nameHotel}>
-          <div className={styles.firstPart}>
             <div className={styles.section1}>
-              <img alt="nameHotelImg" className={styles.nameHotelImg} src={hotel} />
+               <div className={styles.firstPart}>
+                   <img alt="nameHotelImg" className={styles.nameHotelImg} src={hotel} />
+               </div>
               <div className={styles.section2}>
                 <p className={styles.hotelName}>Joe’s California Hotel</p>
                 <img className={styles.stars} alt="stars" src={stars}/>
               </div>
             </div>
-          </div>
+         
         </div>
 
         {/* About & Contact */}
@@ -147,7 +148,7 @@ const HotelReview = () => {
                 <p>1234 Sunset Blvd Los Angeles, CA 90210</p>
               </div>
              
-            <img alt="location" src={location} />
+            <img alt="location" src={location}  className={styles.locImg}/>
           </div>
         </div>
        </div>
