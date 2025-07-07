@@ -15,7 +15,6 @@
 .nameHotel{
     display: flex;
     flex-direction: row;
-    /* height: 150px; */
     width: 1000px;
     background-color: white;
     z-index: 100;
