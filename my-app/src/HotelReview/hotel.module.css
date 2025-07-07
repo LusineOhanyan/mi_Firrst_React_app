@@ -2,22 +2,298 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 1365px;
-   height: 400px;
+   width: 100%;
+   height: 540px;
+   background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   background-image:  url(background.png.png);
+   background-image:  url(./hotel_imgs/background.png);
    position: relative;
 }
 
 
 .nameHotel{
     display: flex;
-    flex-direction: column;
-    height: 150px;
-    width: 800px;
+    flex-direction: row;
+    width: 1000px;
     background-color: white;
-    position: absolute;
     z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.nameHotelImg{
+    width: 148px;
+    height: 138px;
+}
+
+.hotelName{
+  
+    font-family: "Montsterrat", sans-serif;
+}
+
+.firstPart{
+    width: 190px;
+    background: #f7f6f2;
+    text-align:center;
+    border-radius: 4px;
+   
+}
+
+.section2{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    gap:10px;
+}
+
+.aboutHotel{
+     background-color: white;
+    z-index: 100;
+    bottom: 0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 65%;
+}
+
+.container{
+    display: flex;
+    z-index: 100;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 300px;
+}
+
+#p{
+    font-size: 14px;
+    font-family: "Montsterrat", sans-serif;
+    font-weight: Mixed;
+}
+
+#h1{
+    font-size: 16px;
+}
+
+.title{
+    font-size: 16px;
+    font-family: "Montsterrat", sans-serif;
+    font-weight: 500;
+}
+
+.locationAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    bottom: 0;
+    width: 1000px;
+    margin-top: 20px;
+
+} 
+
+.location{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+
+.reviewButton{
+    
+    background-color: #6f2da8;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+            
+}
+
+.overall{
+    font-size: 48px;
+    font-weight: bold; 
+    color: #6f2da8; 
+    margin-bottom: 0; 
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+
+.mailContainer{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.phoneContainer{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.locationContainer{
+     display: flex;
+    flex-direction: row;
+    width: fit-content;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mediaContainer{
+      display: flex;
+    flex-direction: row;
+    width: fit-content;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons{
+    width: 36px;
+    height: 36px;
+}
+
+.conatctInfo{
+    color: rgb(71, 70, 70);
+    font-family: Poppins;
+    font-weight: medium;
+    font-size: 14px;
+}
+
+.reviewContainer{
+     top:100px;
+     width: 600px;
+     margin-right: 350px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.stars{
+    width: 100px;
+    margin-top: 10px;
+}
+
+.firstPart{
+  margin: 10px;
+  border: 1px,solid black;
+
+}
+
+.locImg{
+     border: 2px, solid black;
+    border-radius: 15px;
+}
+
+
+
+@media screen and (max-width: 1190px) {
+  .container {
+    width: 95%;
+    margin-top: 120px;
+  }
+
+  .nameHotel {
+    
+    width: 81%;
+    padding: 16px;
+  }
+
+  .nameHotelImg {
+    width: 120px;
+    height: auto;
+  }
+
+  .section2 {
+    height: auto;
+   
+  }
+
+  .locationAbout {
+    flex-direction: column;
+    width: 80%;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .aboutHotel,
+  .location {
+    width: 100%;
+  }
+
+  .reviewContainer {
+    width: 85%;
+    margin-right: 0;
+    padding: 41px;
+  }
+
+  .first {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .user {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .stars {
+    width: 80px;
+  }
+
+  .background {
+    height: auto;
+    padding: 40px 0;
+    background-position: top;
+  }
+
+ 
+  .locImg{
+    width: 50%;
+   
+  }
+
+ 
 }

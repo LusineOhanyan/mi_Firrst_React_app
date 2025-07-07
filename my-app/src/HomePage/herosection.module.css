@@ -19,6 +19,7 @@
 }
 
 .text_center{
+  /* width: fit-content; */
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -32,8 +33,10 @@
 }
 
 .mt_8{
-  width: 710px;
-  height: 55px;
+  position: relative;
+  max-width: 710px;
+  width: 100%;
+  /* height: 55px; */
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -54,6 +57,8 @@
 }
 
 .searchButton{
+  position: absolute;
+  right: 10px;
   width: 140px;
   height: 35px;
   background-color: #662D91;
@@ -61,7 +66,7 @@
   border: 1px;
   border-radius: 10px;
   color: white;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   font-size: 16px;
   font-family: Montsterrat, sans-serif;
   font-weight: 600;
@@ -92,7 +97,7 @@
 }
 
 
-.full_screen {
+/* .full_screen {
   background:
     linear-gradient(rgba(0, 0, 0, 0.7)),
     url("images/background.png");
@@ -101,4 +106,81 @@
   background-size: cover;
   background-position: center;
   position: relative;
+} */
+
+
+.full_screen {
+  min-height: 100vh;
+  height: auto;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+
+
+@media (max-width: 768px) {
+  .text_4xl {
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  .mt_4 {
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .text_center {
+    padding: 100px 16px;
+  }
+
+  .mt_8 {
+    flex-direction: column;
+    padding: 16px;
+    max-width: 100%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .search_container {
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    height: 4vh;
+    border-radius: 16px !important;
+  }
+
+  .inputStyle {
+    width: 100%;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .searchButton {
+    position: static;
+    width: 23%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .search_icon {
+    margin-left: 0;
+    font-size: 20px;
+    /* align-self: center; */
+  }
+
+  .full_screen {
+    background-size: cover;
+    height: auto;
+    padding-bottom: 40px;
+  }
 }

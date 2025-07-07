@@ -13,3 +13,63 @@ h2{
      font-weight: 700;
      height: auto;
 }
+
+
+.inputcontainer{
+     width: 80%;
+     max-width: 500px;
+}
+
+.forgotPass{
+ 
+  cursor: pointer;
+  text-decoration: underline;
+
+               
+              
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .backImage {
+    background-position: top;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px !important;
+    
+  }
+
+  .forgotPass{
+    text-align: left;
+}
+}
+
+@media (max-width: 480px) {
+  .backImage {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 13px !important;
+    
+  }
+
+
+  .forgotPass{
+    text-align: left;
+}
+}
+

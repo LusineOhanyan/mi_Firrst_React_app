@@ -1,7 +1,4 @@
 import styles from './dropdown.module.css';
-
-
-
 const ProfileDropdown = ({togglePopup}) => {
   return (
     <>
